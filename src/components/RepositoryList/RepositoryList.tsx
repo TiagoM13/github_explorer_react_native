@@ -1,37 +1,10 @@
 import React from 'react';
 import { FlatList, View, Text } from 'react-native';
+import { data } from '../../database/data';
 import { useRepositories } from '../../hooks/repositories';
 import { RepositoryItem } from '../RepositoryItem/RepositoryItem';
 
 import { styles } from './styles';
-
-const data = [
-  {
-    id: '1',
-    title: 'Web Server',
-    description: 'Application React/Node',
-  },
-  {
-    id: '2',
-    title: 'Shopp App',
-    description: 'Application React/Node',
-  },
-  {
-    id: '3',
-    title: 'Landing Page',
-    description: 'Application React/Node',
-  },
-  {
-    id: '4',
-    title: 'Services Back-End',
-    description: 'Application React/Node',
-  },
-  {
-    id: '5',
-    title: 'NLW Setup',
-    description: 'Application React/Node',
-  },
-];
 
 export const RepositoryList = () => {
   const { repositories } = useRepositories();
