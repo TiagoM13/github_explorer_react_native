@@ -1,4 +1,4 @@
-# Github Explorer - ⚛️ React Native
+# ⚛️ Github Explorer - React Native
 
 ## 🔖 About
 
