@@ -2,8 +2,18 @@ import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
   container: {
-    width: '100%',
-    paddingTop: 10,
-    paddingBottom: 10,
+    flex: 1,
+    paddingTop: 5,
+    alignItems: 'center',
   },
+  title: {
+    fontSize: 20,
+    fontWeight: '800',
+    textDecorationLine: 'underline',
+    marginBottom: 10,
+  },
+  contentStyle: {
+    paddingTop: 10,
+    paddingBottom: 80,
+  }
 });
