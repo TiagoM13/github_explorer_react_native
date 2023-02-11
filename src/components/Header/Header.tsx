@@ -6,7 +6,7 @@ import { styles } from './styles';
 export const Header = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Repository List</Text>
+      <Text style={styles.text}>GitHub Explorer</Text>
     </View>
   );
 }
