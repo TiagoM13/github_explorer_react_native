@@ -2,19 +2,22 @@ import { View, Text } from 'react-native';
 
 import { styles } from './styles';
 
-interface ItemProps {
-  item: string;
-  description?: string;
+export interface IRespositoryItem {
+  repository: {
+    name: string;
+    description: string;
+    html_url: string;
+  };
 }
 
-export const RepositoryItem = (props: ItemProps) => {
+export const RepositoryItem = ({ repository }: IRespositoryItem) => {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>
-        {props.item}
+        {repository.name}
       </Text>
       <Text style={styles.description}>
-        {props.description}
+        {repository.description}
       </Text>
     </View>
   );
