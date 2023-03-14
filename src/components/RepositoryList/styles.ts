@@ -16,5 +16,14 @@ export const styles = StyleSheet.create({
     paddingTop: 10,
     paddingBottom: 80,
     paddingHorizontal: 12,
+  },
+  loading: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  textLoad: {
+    fontSize: 18,
+    fontWeight: '600',
   }
 });
