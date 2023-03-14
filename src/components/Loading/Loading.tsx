@@ -5,7 +5,7 @@ import { styles } from './styles'
 export const Loading = () => {
   return (
     <View style={styles.container}>
-      <ActivityIndicator size="large" color="#000" />
+      <ActivityIndicator size="large" color="#FFF" />
     </View>
   )
 }

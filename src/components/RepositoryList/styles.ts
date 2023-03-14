@@ -7,6 +7,7 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
   },
   title: {
+    color: '#CCC',
     fontSize: 20,
     fontWeight: '800',
     textDecorationLine: 'underline',
@@ -23,6 +24,7 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
   },
   textLoad: {
+    color: '#FFF',
     fontSize: 18,
     fontWeight: '600',
   }
