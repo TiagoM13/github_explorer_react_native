@@ -1,10 +1,6 @@
 import { useEffect, useState } from 'react';
 
-interface IRepository {
-  name: string;
-  description: string;
-  html_url: string;
-}
+import { IRepository } from '@src/interfaces/repository';
 
 export const useRepositories = () => {
   const [repositories, setRepositories] = useState<IRepository[]>([]);
