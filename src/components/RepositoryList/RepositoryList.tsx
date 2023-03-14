@@ -1,7 +1,7 @@
 import React from 'react';
 import { FlatList, View, Text } from 'react-native';
-import { useRepositories } from '../../hooks/repositories';
-import { RepositoryItem } from '../RepositoryItem/RepositoryItem';
+import { useRepositories } from '@src/hooks/repositories';
+import { RepositoryItem } from '@src/components/RepositoryItem/RepositoryItem';
 
 import { styles } from './styles';
 

@@ -7,11 +7,10 @@ import {
   Inter_900Black
 } from '@expo-google-fonts/inter';
 
-import Home from './src/screens/Home';
+import Home from '@src/screens/Home';
+import { Loading } from '@src/components/Loading/Loading';
 
-import { Loading } from './src/components/Loading/Loading';
-
-import { styles } from './src/styles/global';
+import { styles } from '@src/styles/global';
 
 export default function App() {
   const [fontLoaded] = useFonts({
