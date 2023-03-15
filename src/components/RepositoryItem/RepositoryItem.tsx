@@ -1,14 +1,8 @@
 import { View, Text } from 'react-native';
 
-import { styles } from './styles';
+import { IRespositoryItem } from '@src/interfaces/repositoryItem';
 
-export interface IRespositoryItem {
-  repository: {
-    name: string;
-    description: string;
-    html_url: string;
-  };
-}
+import { styles } from './styles';
 
 export const RepositoryItem = ({ repository }: IRespositoryItem) => {
   return (

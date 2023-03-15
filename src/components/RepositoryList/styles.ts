@@ -7,6 +7,7 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
   },
   title: {
+    color: '#CCC',
     fontSize: 20,
     fontWeight: '800',
     textDecorationLine: 'underline',
@@ -16,5 +17,15 @@ export const styles = StyleSheet.create({
     paddingTop: 10,
     paddingBottom: 80,
     paddingHorizontal: 12,
+  },
+  loading: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  textLoad: {
+    color: '#FFF',
+    fontSize: 18,
+    fontWeight: '600',
   }
 });

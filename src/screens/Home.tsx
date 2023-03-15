@@ -1,7 +1,7 @@
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { Header } from '../components/Header/Header';
-import { RepositoryList } from '../components/RepositoryList/RepositoryList';
+import { Header } from '@src/components/Header/Header';
+import { RepositoryList } from '@src/components/RepositoryList/RepositoryList';
 
 import { styles } from './styles';
 
