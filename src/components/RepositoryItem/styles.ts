@@ -25,8 +25,6 @@ export const styles = StyleSheet.create({
   button: {
     width: 90,
     marginTop: 20,
-    // backgroundColor: "#F31F5C",
-    // alignItems: "center",
   },
   textButton: {
     color: "#ccc",
