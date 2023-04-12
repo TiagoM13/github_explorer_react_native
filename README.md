@@ -8,8 +8,8 @@ Version mobile the [Github Explorer project](https://github.com/TiagoM13/Github_
 ## 📷 Layout
 
 <div>
-   <img src="./assets/loading.png" width="200px" />
-   <img src="./assets/home.png" width="200px" />
+   <img src="./assets/loading.png" width="260px" />
+   <img src="./assets/home.png" width="260px" />
 </div>
 
 ## 🛠️ Tools
