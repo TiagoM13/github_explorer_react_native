@@ -3,7 +3,7 @@
 ## 🔖 About
 
 Version mobile the [Github Explorer project](https://github.com/TiagoM13/Github_Explorer_React).
-Mobile application, listing of user repositories using the github api for data query.
+<p>Mobile application, listing of user repositories using the github api for data query.</p>
 
 ## 🛠️ Tools
    - [Expo](https://docs.expo.dev/)
