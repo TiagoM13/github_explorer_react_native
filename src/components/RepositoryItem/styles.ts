@@ -22,15 +22,4 @@ export const styles = StyleSheet.create({
     fontFamily: 'Inter_400Regular',
     fontWeight: '400',
   },
-  button: {
-    width: 90,
-    marginTop: 20,
-  },
-  textButton: {
-    color: '#ccc',
-    textDecorationLine: 'underline',
-    fontSize: 12,
-    fontFamily: 'Inter_400Regular',
-    fontWeight: '600',
-  },
 });
