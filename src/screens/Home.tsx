@@ -12,6 +12,6 @@ const Home = () => {
       <RepositoryList />
     </SafeAreaView>
   );
-}
+};
 
 export default Home;
