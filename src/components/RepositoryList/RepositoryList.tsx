@@ -1,5 +1,5 @@
 import React from 'react';
-import { FlatList, View, Text, ActivityIndicator } from 'react-native';
+import { FlatList, View, Text } from 'react-native';
 import { useRepositories } from '@src/hooks/repositories';
 import { RepositoryItem } from '@src/components/RepositoryItem/RepositoryItem';
 
@@ -12,25 +12,19 @@ export const RepositoryList = () => {
     <View style={styles.container}>
       <Text style={styles.title}>Lista de Repositórios</Text>
 
-      {
-        load ? (
-          <View style={styles.loading}>
-            <Text style={styles.textLoad}>
-              Loading repositories...
-            </Text>
-          </View>
-        ) : (
-          <FlatList
-            data={repositories}
-            keyExtractor={item => item.name}
-            renderItem={({ item }) => (
-              <RepositoryItem repository={item} />
-            )}
-            contentContainerStyle={styles.contentStyle}
-            showsVerticalScrollIndicator={false}
-          />
-        )
-      }
+      {load ? (
+        <View style={styles.loading}>
+          <Text style={styles.textLoad}>Loading repositories...</Text>
+        </View>
+      ) : (
+        <FlatList
+          data={repositories}
+          keyExtractor={item => item.name}
+          renderItem={({ item }) => <RepositoryItem repository={item} />}
+          contentContainerStyle={styles.contentStyle}
+          showsVerticalScrollIndicator={false}
+        />
+      )}
     </View>
   );
-}
+};

@@ -1,8 +1,8 @@
-import { View, Text, TouchableOpacity, Linking } from "react-native";
+import { View, Text, TouchableOpacity, Linking } from 'react-native';
 
-import { IRespositoryItem } from "@src/interfaces/repositoryItem";
+import { IRespositoryItem } from '@src/interfaces/repositoryItem';
 
-import { styles } from "./styles";
+import { styles } from './styles';
 
 export const RepositoryItem = ({ repository }: IRespositoryItem) => {
   return (

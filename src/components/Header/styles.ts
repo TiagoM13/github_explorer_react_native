@@ -6,11 +6,11 @@ export const styles = StyleSheet.create({
     backgroundColor: '#000',
     alignItems: 'center',
     paddingVertical: 16,
-    marginBottom: 16
+    marginBottom: 16,
   },
   text: {
     color: '#FFF',
     fontSize: 18,
     fontFamily: 'Inter_900Black',
-  }
+  },
 });

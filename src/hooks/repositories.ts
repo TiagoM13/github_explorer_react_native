@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
-import { GITHUB_API } from "@env";
-import { IRepository } from "@src/interfaces/repository";
+import { GITHUB_API } from '@env';
+import { IRepository } from '@src/interfaces/repository';
 
 export const useRepositories = () => {
   const [load, setLoad] = useState(false);
@@ -11,8 +11,8 @@ export const useRepositories = () => {
     setLoad(true);
     setInterval(() => {
       fetch(`${GITHUB_API}`)
-        .then((response) => response.json())
-        .then((data) => setRepositories(data))
+        .then(response => response.json())
+        .then(data => setRepositories(data))
         .finally(() => setLoad(false));
     }, 5000);
   }, []);

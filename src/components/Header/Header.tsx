@@ -9,4 +9,4 @@ export const Header = () => {
       <Text style={styles.text}>Github Explorer</Text>
     </View>
   );
-}
+};
