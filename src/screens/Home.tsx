@@ -1,11 +1,10 @@
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { Header } from '@src/components/Header/Header';
-import { RepositoryList } from '@src/components/RepositoryList/RepositoryList';
+import { Header, RepositoryList } from '@src/components';
 
 import { styles } from './styles';
 
-const Home = () => {
+export const Home = () => {
   return (
     <SafeAreaView style={styles.container}>
       <Header />
@@ -13,5 +12,3 @@ const Home = () => {
     </SafeAreaView>
   );
 };
-
-export default Home;

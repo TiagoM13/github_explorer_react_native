@@ -2,15 +2,13 @@ import React from 'react';
 import { useQuery } from 'react-query';
 import { FlatList, View, Text } from 'react-native';
 
-import { GITHUB_API } from '@env';
-
-import { RepositoryItem } from '@src/components/RepositoryItem/RepositoryItem';
-import { getAllRepositories } from '@src/utils/getAllRepositories';
+import { RepositoryItem } from '..';
+import { getAllRepositories } from '@src/utils';
 
 import { styles } from './styles';
 
 export const RepositoryList = () => {
-  const { data, isLoading } = useQuery('repos', () => getAllRepositories(GITHUB_API));
+  const { data, isLoading } = useQuery('repos', getAllRepositories);
 
   if (isLoading) {
     return (

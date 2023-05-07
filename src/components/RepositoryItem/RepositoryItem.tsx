@@ -1,6 +1,6 @@
-import { View, Text, TouchableOpacity, Linking } from 'react-native';
+import { Text, TouchableOpacity, Linking } from 'react-native';
 
-import { IRespositoryItem } from '@src/interfaces/repositoryItem';
+import { IRespositoryItem } from '@src/interfaces';
 
 import { styles } from './styles';
 
