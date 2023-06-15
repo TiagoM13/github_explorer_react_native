@@ -4,8 +4,12 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "@src/*": ["src/*"]
+      "@app/*": [
+        "src/*"
+      ]
     },
-    "typeRoots": [" ./src/types "]
+    "typeRoots": [
+      " ./src/types "
+    ]
   }
 }
