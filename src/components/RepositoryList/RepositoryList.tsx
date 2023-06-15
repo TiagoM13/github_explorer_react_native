@@ -3,7 +3,7 @@ import { useQuery } from 'react-query';
 import { FlatList, View, Text } from 'react-native';
 
 import { RepositoryItem } from '..';
-import { getAllRepositories } from '@src/utils';
+import { getAllRepositories } from '@app/utils';
 
 import { styles } from './styles';
 

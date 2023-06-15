@@ -1,5 +1,5 @@
-import { IRepository } from '@src/interfaces';
-import { api } from '@src/lib';
+import { IRepository } from '@app/interfaces';
+import { api } from '@app/lib/axios';
 
 export const getAllRepositories = async (): Promise<IRepository[]> => {
   const reposnse = await api.get<IRepository[]>('/repos');
